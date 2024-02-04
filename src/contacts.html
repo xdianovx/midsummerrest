@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html')
+
+<body class="page__body">
+  @include('partials/aside.html')
+  @include('partials/header.html')
+
+  <main class="contacts">
+    <div class="bg-main">
+      <div class="left"></div>
+      <div class="right"></div>
+    </div>
+
+    <section class="content">
+      <div class="container">
+        <div class="wrap">
+          <div class="left">
+            <iframe
+              src="https://yandex.ru/map-widget/v1/?um=constructor%3Adfe0b4ca2d15a1149853746548c7687b78a9dce2fec2931a171e0820bdc2d02a&amp;source=constructor"
+              width="100%" height="100%" frameborder="0"></iframe>
+          </div>
+
+
+          <div class="right center">
+            <h2 class="title-h2">Контакты</h2>
+
+            <div class="contacts__img">
+              <picture>
+                <source srcset="./img/contacts.webp" type="image/webp" />
+                <img src="./img/contacts.png" alt="" />
+              </picture>
+            </div>
+
+
+            <div class="contacts__list">
+
+              <div class="item">
+                <div class="item__icon">
+                  <img src="./img/svg/pin.svg" alt="">
+                </div>
+                <div class="item__text">
+                  <p>
+                    <b>Адрес: </b>
+                    г. Москва, Мясницкий проезд, 2/1
+                  </p>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="item__icon">
+                  <img src="./img/svg/pin.svg" alt="">
+                </div>
+                <div class="item__text">
+                  <p>
+                    <b>Адрес: </b>
+                    г. Москва, Мясницкий проезд, 2/1
+                  </p>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="item__icon">
+                  <img src="./img/svg/pin.svg" alt="">
+                </div>
+                <div class="item__text">
+                  <p>
+                    <b>Адрес: </b>
+                    г. Москва, Мясницкий проезд, 2/1
+                  </p>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="item__icon">
+                  <img src="./img/svg/mail 1.svg" alt="">
+                </div>
+                <div class="item__text">
+                  <p>
+                    <b>Адрес: </b>
+                    г. Москва, Мясницкий проезд, 2/1
+                  </p>
+                </div>
+              </div>
+
+
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <picture>
+        <source srcset="img/cover.webp" type="image/webp">
+        <img loading="lazy" src="img/cover.jpg" class="image" width="300" height="300" alt="Обложка канала MaxGraph">
+      </picture> -->
+
+  </main>
+  @include('partials/footer.html')
+  <!-- @include('html/h1.html') пример include -->
+</body>
+
+</html>

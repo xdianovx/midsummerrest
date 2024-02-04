@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html')
+
+<body class="page__body">
+  @include('partials/aside.html')
+  @include('partials/header.html')
+
+  <main class="booking">
+    <div class="bg-main">
+      <div class="left"></div>
+      <div class="right"></div>
+    </div>
+
+    <section class="content">
+      <div class="container">
+        <div class="wrap">
+          <div class="left">
+            <picture>
+              <source srcset="./img/booking-bg.webp" type="image/webp" />
+              <img src="./img/booking-bg.png" alt="" />
+            </picture>
+
+
+          </div>
+          <div class="right center">
+            <h2 class="title-h2">Бронирование</h2>
+
+            <form>
+              <div class="form-input">
+                <p>Имя:</p>
+                <input type="text">
+              </div>
+
+              <div class="form-input">
+                <p>E-mail:</p>
+                <input type="text">
+              </div>
+
+
+
+              <div class="form-input-wrap">
+                <div class="form-input">
+                  <p>Телефон:</p>
+                  <input type="text">
+                </div>
+
+                <div class="form-input">
+                  <p>Гостей:</p>
+                  <input type="number">
+                </div>
+              </div>
+
+              <div class="form-input-wrap">
+                <div class="form-input">
+                  <p>Дата:</p>
+                  <input type="datetime">
+                </div>
+
+                <div class="form-input">
+                  <p>Время:</p>
+                  <input type="text">
+                </div>
+              </div>
+
+              <textarea rows="6" placeholder="Ваши комментарии:"></textarea>
+
+              <div class="bottom">
+                <p>Отправляя форму, вы соглашаетесь <br> с условиями <a href="#">публичной оферты</a></p>
+                <button type="submit">отправить</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <picture>
+        <source srcset="img/cover.webp" type="image/webp">
+        <img loading="lazy" src="img/cover.jpg" class="image" width="300" height="300" alt="Обложка канала MaxGraph">
+      </picture> -->
+
+  </main>
+  @include('partials/footer.html')
+  <!-- @include('html/h1.html') пример include -->
+</body>
+
+</html>

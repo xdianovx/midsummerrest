@@ -1,0 +1,29 @@
+.events {}
+
+.event-title {
+    color: var(--green);
+    line-height: 120%;
+    font-size: 30px;
+    font-family: "Steppe", sans-serif;
+}
+
+.event-date {
+    margin-top: 40px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.event-text {
+    margin-top: 38px;
+    line-height: 160%;
+    font-size: 14px;
+}
+
+.event__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.event-image-slider {
+    height: 100%;
+}

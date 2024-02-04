@@ -1,0 +1,23 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  // base
+  --font-family: "Lato", sans-serif;
+  --content-width: 1870px;
+  --container-offset: 40px;
+  --container-width: calc(var(--content-width));
+
+  // colors
+  --light-color: #fff;
+  --green: #2E723D;
+  --text: #111712;
+
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  :root {
+    --container-offset: 20px;
+  }
+}
