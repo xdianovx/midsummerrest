@@ -50,6 +50,10 @@ window.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
       target.style.transition = 'opacity .3s ease-in'
       target.style.opacity = 0
+      target.style.pointerEvents = 'none'
+      target.style.zIndex = '0'
+
+
     }, 1)
   }
 
@@ -58,6 +62,11 @@ window.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
       target.style.transition = 'opacity .3s ease-in'
       target.style.opacity = 1
+      target.style.pointerEvents = 'all'
+      target.style.zIndex = '100'
+
+
+
     }, 1)
   }
 
