@@ -1,187 +1,152 @@
 <!doctype html>
 <html lang="ru" class="page">
-  @include('partials/head.html')
+@include('partials/head.html')
 
-  <body class="page__body">
-    @include('partials/aside.html') @include('partials/header.html')
+<body class="page__body">
+  @include('partials/aside.html') @include('partials/header.html')
 
-    <main class="gallery">
-      <div class="bg-main">
-        <div class="left"></div>
-        <div class="right"></div>
-      </div>
+  <main class="gallery">
+    <div class="bg-main">
+      <div class="left"></div>
+      <div class="right"></div>
+    </div>
 
-      <section class="content">
-        <div class="container">
-          <div class="wrap">
-            <div class="left">
-              <div class="swiper gallery-swiper-thumb">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
+    <section class="content">
+      <div class="container">
+        <div class="wrap">
+          <div class="left">
+
+            <div class="swiper gallery-swiper-thumb gallery-swiper-thumb-intr">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="./img/bgl.png" data-fancybox="gallery-a" data-caption="Gallery A #1">
                     <img src="./img/bgl.png" alt="" />
-                  </div>
-                  <div class="swiper-slide">
+                  </a>
+
+                </div>
+                <div class="swiper-slide">
+                  <a href="./img/contacts.png" data-fancybox="gallery-a" data-caption="Gallery A #1">
                     <img src="./img/contacts.jpg" alt="" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="./img/bgl.png" alt="" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="./img/contacts.jpg" alt="" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="./img/bgl.png" alt="" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="./img/contacts.jpg" alt="" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="./img/bgl.png" alt="" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="./img/contacts.jpg" alt="" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="./img/bgl.png" alt="" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="./img/contacts.jpg" alt="" />
-                  </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/bgl.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/contacts.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/bgl.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/contacts.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/bgl.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/contacts.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/bgl.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/contacts.jpg" alt="" />
                 </div>
               </div>
             </div>
-            <div class="right">
-              <div class="tabs gallery-tabs">
-                <div class="tabs__header">
-                  <div  class="tabs__btn">Интерьер</div>
-                  <div class="tabs__btn">ЕДА И НАПИТКИ</div>
-                  <div class="tabs__btn">CHEF’S TABLE</div>
+
+            <div class="swiper gallery-swiper-thumb gallery-swiper-thumb-eda">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./img/contacts.jpg" alt="" />
                 </div>
+                <div class="swiper-slide">
+                  <img src="./img/bgl.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/bgl.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/contacts.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/bgl.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/contacts.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/bgl.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/contacts.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/bgl.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/contacts.jpg" alt="" />
+                </div>
+              </div>
+            </div>
 
-                <div class="tabs__wrap">
-                  <div
-                    class="tab__content"
-                    data-tab-image="./img/booking-bg.png"
-                  >
-                    <h2 class="title-h2">Концепция</h2>
-
-                    <div class="scroll">
-                      <p>
-                        Стимулирование коммьюнити, отбрасывая подробности,
-                        усиливает пул лояльных изданий, отвоевывая рыночный
-                        сегмент. Баланс спроса и предложения без оглядки на
-                        авторитеты отталкивает комплексный анализ рыночных цен.
-                        Реклама, не меняя концепции, изложенной выше, директивно
-                        переворачивает конвергентный пул лояльных изданий.
-                        Ребрендинг интуитивно индуцирует формирование имиджа.
-                        Сегмент рынка парадоксально масштабирует эмпирический
-                        мониторинг активности. <br /><br />
-                        Исходя из структуры пирамиды Маслоу, CTR ускоряет
-                        комплексный медиаплан. Построение бренда как всегда
-                        непредсказуемо. В рамках концепции Акоффа и Стэка,
-                        рейт-карта обуславливает рекламный клаттер.
-                        Эффективность действий, следовательно, ускоряет
-                        экспериментальный комплексный анализ ситуации. Опрос
-                        обуславливает экспериментальный пул лояльных изданий.
-                        Клиентский спрос, следовательно, спорадически тормозит
-                        сублимированный диктат потребителя.
-                      </p>
-                    </div>
-
-                    <div class="gallery-swiper-wrap">
-                      <div class="gallery-swiper-prev swiper-button-prev">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="8"
-                          height="14"
-                          viewBox="0 0 8 14"
-                          fill="none"
-                        >
-                          <g clip-path="url(#clip0_18_24)">
-                            <path
-                              d="M0.319851 7.42005L5.97985 13.07C6.36985 13.46 6.99985 13.47 7.38985 13.08C7.38985 13.08 7.38985 13.08 7.39985 13.07C7.78985 12.68 7.78985 12.05 7.39985 11.66L2.44985 6.66005L7.39985 1.71005C7.78985 1.32005 7.79985 0.690046 7.39985 0.300046C7.00985 -0.0899539 6.37985 -0.0999539 5.98985 0.300046C5.98985 0.300046 5.98985 0.300046 5.97985 0.310046L0.319851 5.95005C-0.0901487 6.32005 -0.110149 6.95005 0.259851 7.36005C0.279851 7.38005 0.299851 7.40005 0.319851 7.42005Z"
-                              fill="#2E723D"
-                            />
-                          </g>
-                          <defs>
-                            <clipPath id="clip0_18_24">
-                              <rect width="7.7" height="13.37" fill="white" />
-                            </clipPath>
-                          </defs>
-                        </svg>
-                      </div>
-
-                      <div class="swiper gallery-swiper">
-                        <div class="swiper-wrapper">
-                          <div class="swiper-slide gallery-swiper-slide">
-                            <img src="./img/bgl.png" alt="" />
-                          </div>
-                          <div class="swiper-slide gallery-swiper-slide">
-                            <img src="./img/contacts.jpg" alt="" />
-                          </div>
-                          <div class="swiper-slide gallery-swiper-slide">
-                            <img src="./img/bgl.png" alt="" />
-                          </div>
-                          <div class="swiper-slide gallery-swiper-slide">
-                            <img src="./img/contacts.jpg" alt="" />
-                          </div>
-                          <div class="swiper-slide gallery-swiper-slide">
-                            <img src="./img/bgl.png" alt="" />
-                          </div>
-                          <div class="swiper-slide gallery-swiper-slide">
-                            <img src="./img/contacts.jpg" alt="" />
-                          </div>
-                          <div class="swiper-slide gallery-swiper-slide">
-                            <img src="./img/bgl.png" alt="" />
-                          </div>
-                          <div class="swiper-slide gallery-swiper-slide">
-                            <img src="./img/contacts.jpg" alt="" />
-                          </div>
-                          <div class="swiper-slide gallery-swiper-slide">
-                            <img src="./img/bgl.png" alt="" />
-                          </div>
-                          <div class="swiper-slide gallery-swiper-slide">
-                            <img src="./img/contacts.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="gallery-swiper-next swiper-button-next">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="9"
-                          height="14"
-                          viewBox="0 0 9 14"
-                          fill="none"
-                        >
-                          <g clip-path="url(#clip0_18_29)">
-                            <path
-                              d="M8.08054 5.94995L2.42054 0.29995C2.03054 -0.0900507 1.40054 -0.100051 1.01054 0.289949C1.01054 0.289949 1.01054 0.289949 1.00054 0.29995C0.610539 0.68995 0.610539 1.31995 1.00054 1.70995L5.95054 6.70995L1.00054 11.6599C0.610539 12.0499 0.600539 12.6799 1.00054 13.0699C1.39054 13.4599 2.02054 13.4699 2.41054 13.0699C2.41054 13.0699 2.41054 13.0699 2.42054 13.0599L8.08054 7.41995C8.49054 7.04995 8.51054 6.41995 8.14054 6.00995C8.12054 5.98995 8.10054 5.96995 8.08054 5.94995Z"
-                              fill="#2E723D"
-                            />
-                          </g>
-                          <defs>
-                            <clipPath id="clip0_18_29">
-                              <rect
-                                width="7.7"
-                                height="13.37"
-                                fill="white"
-                                transform="matrix(-1 0 0 -1 8.40039 13.37)"
-                              />
-                            </clipPath>
-                          </defs>
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
+            <div class="swiper gallery-swiper-thumb gallery-swiper-thumb-chef">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./img/bgl.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/contacts.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/bgl.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/contacts.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/bgl.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/contacts.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/bgl.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/contacts.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/bgl.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/contacts.jpg" alt="" />
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+          <div class="right">
+            <div class="tabs gallery-tabs">
+              <div class="tabs__header">
+                <div class="tabs__btn">Интерьер</div>
+                <div class="tabs__btn">ЕДА И НАПИТКИ</div>
+                <div class="tabs__btn">CHEF’S TABLE</div>
+              </div>
 
-    </main>
-    @include('partials/footer.html')
-  </body>
+              <div class="tabs__wrap">
+                @include('partials/gallery-content-intr.html')
+                @include('partials/gallery-content-eda.html')
+                @include('partials/gallery-content-chef.html')
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  @include('partials/footer.html')
+</body>
+
 </html>
