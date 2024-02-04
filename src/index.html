@@ -1,47 +1,47 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru" class="page">
+  @include('partials/head.html')
 
-@include('partials/head.html')
+  <body class="page__body">
+    @include('partials/aside.html') @include('partials/header.html')
 
-<body class="page__body">
-  @include('partials/aside.html')
-  @include('partials/header.html')
+    <main class="index">
+      <div class="main-page-logo">
+        <img src="./img/svg/page-logo.svg" alt="" />
+      </div>
+      <section class="content video-bg">
+        <video autoplay="" loop="" muted="" playsinline="">
+          <source
+            src="https://midsummerrest.ru/wp-content/themes/midsummer/assets/video/bg.webm"
+            type="video/webm"
+          />
+        </video>
+      </section>
 
-  <main class="index">
-    <div class="main-page-logo">
-      <img src="./img/svg/page-logo.svg" alt="">
-    </div>
-    <section class="content video-bg">
-      <video autoplay="" loop="" muted="" playsinline="">
-        <source src="https://midsummerrest.ru/wp-content/themes/midsummer/assets/video/bg.webm" type="video/webm">
-      </video>
-    </section>
+      <div class="index__btns">
+        <a href="#" class="index__btns_item">
+          <div class="image">
+            <img src="./img/svg/menu_1.svg" alt="" />
+          </div>
+          <p>Меню</p>
+        </a>
 
-    <div class="index__btns">
-      <a href="#" class="index__btns_item">
-        <div class="image">
-          <img src="./img/svg/menu_1.svg" alt="">
-        </div>
-        <p>Меню</p>
-      </a>
+        <a href="#" class="index__btns_item">
+          <div class="image">
+            <img src="./img/svg/menu_2.svg" alt="" />
+          </div>
+          <p>бронирование</p>
+        </a>
 
-      <a href="#" class="index__btns_item">
-        <div class="image">
-          <img src="./img/svg/menu_2.svg" alt="">
-        </div>
-        <p>бронирование</p>
-      </a>
-
-      <a href="./contacts.html" class="index__btns_item">
-        <div class="image">
-          <img src="./img/svg/menu_3.svg" alt="">
-        </div>
-        <p>контакты</p>
-      </a>
-    </div>
-  </main>
-  @include('partials/footer.html')
-  <!-- @include('html/h1.html') пример include -->
-</body>
-
+        <a href="./contacts.html" class="index__btns_item">
+          <div class="image">
+            <img src="./img/svg/menu_3.svg" alt="" />
+          </div>
+          <p>контакты</p>
+        </a>
+      </div>
+    </main>
+    @include('partials/footer.html')
+    <!-- @include('html/h1.html') пример include -->
+  </body>
 </html>
