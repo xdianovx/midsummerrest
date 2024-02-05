@@ -179,6 +179,27 @@ window.addEventListener('DOMContentLoaded', () => {
         }
       });
 
+      const swiperGalleryThumbIntrMob = new Swiper(".gallery-swiper-thumb-intr-mob", {
+        spaceBetween: 0,
+        slidesPerView: 1,
+        watchSlidesProgress: true,
+        loop: true,
+      });
+
+      const SwiperGalleryIntMob = new Swiper(".gallery-swiper-intr-mob", {
+        slidesPerView: 'auto',
+        spaceBetween: 10,
+        loop: true,
+        slideToClickedSlide: true,
+        speed: 300,
+        thumbs: {
+          swiper: swiperGalleryThumbIntrMob,
+        },
+      });
+
+
+      // gallery-swiper-intr-mob
+
       const swiperGalleryThumbEda = new Swiper(".gallery-swiper-thumb-eda", {
         spaceBetween: 0,
         slidesPerView: 1,

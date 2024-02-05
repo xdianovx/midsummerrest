@@ -115,6 +115,11 @@
   display: none;
 }
 
+
+.slider-mob {
+  display: none;
+}
+
 @media screen and (max-width: 1200px) {
   .gallery-swiper-thumb {
     display: none;
@@ -127,5 +132,51 @@
   .gallery-swiper-prev,
   .gallery-swiper-next {
     display: none;
+
+
   }
+
+  .gallery-swiper-wrap {
+    display: none;
+  }
+
+  .swiper-mob-main {
+    margin-top: 10px;
+  }
+
+  .slider-mob {
+    display: block;
+    margin-top: 48px;
+
+    a {
+      display: block;
+      height: 100%;
+    }
+
+
+
+    img {
+      display: block;
+    }
+
+    .slider-mob {
+      .swiper {
+        height: 320px;
+      }
+
+      .swiper-mob-thumb .swiper-slide {
+        height: 100%;
+        width: 100%;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+
+
+
 }
