@@ -3,3 +3,32 @@
         margin-top: 65px;
     }
 }
+
+
+@media screen and (max-width: 1200px) {
+    .booking {
+        .right {
+            form {
+                margin-top: 48px;
+            }
+        }
+
+        .form-input-wrap {
+            flex-direction: column;
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .booking {
+        .right {
+            overflow-y: auto;
+            overflow: auto !important;
+        }
+
+        .center {
+            justify-content: start !important;
+        }
+    }
+}

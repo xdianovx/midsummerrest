@@ -27,3 +27,16 @@
 .event-image-slider {
     height: 100%;
 }
+
+@media screen and (max-width: 1200px) {
+    .events {
+        .swiper-wrapper {
+            flex-direction: column;
+        }
+    }
+
+    .event-slider {
+        overflow-y: auto;
+    }
+
+}
